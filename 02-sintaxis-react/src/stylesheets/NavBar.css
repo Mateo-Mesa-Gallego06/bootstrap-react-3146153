@@ -1,0 +1,23 @@
+.barra{
+    width: 60%;
+    height: 60px;
+    background-color: #282c34;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.LogoFlor{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Title1{
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.LogoSol{
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
