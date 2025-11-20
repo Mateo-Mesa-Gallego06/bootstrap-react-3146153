@@ -9,60 +9,61 @@ export const SectionCard = () => {
         
         <div className="col-6 col-md-2">
           <div className="tile tile-green d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-journal-bookmark icon"></i>
-            <span>About Us</span>
+            <img className="icons-cards" src="../public/libro.png" alt="" />
+            <span className="titles-card">About Us</span>
           </div>
         </div>
 
         
         <div className="col-6 col-md-2">
           <div className="tile tile-lightgreen d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-people-fill icon"></i>
-            <span>Our Team</span>
+            <img className="icons-cards" src="../public/cajon.png" alt="" />
+            <span className="titles-card">Our Team</span>
           </div>
         </div>
 
         
         <div className="col-12 col-md-4">
           <div className="tile tile-blue big-tile d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-image icon-big"></i>
-            <span>Our Works</span>
+            <img className="icon-galery" src="../public/galery.png" alt="" />
+            <span className="titles-card3">Our Works</span>
           </div>
         </div>
 
         
         <div className="col-12 col-md-4">
           <div className="tile tile-pink d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-geo-alt icon"></i>
-            <span>Contacts</span>
+            <img className="icons-cards2" src="../public/mapa.png" alt="" />
+            <span className="titles-card2">Contacts</span>
           </div>
         </div>
 
         
         <div className="col-12 col-md-4">
           <div className="tile tile-red long-tile d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-download icon"></i>
-            <span>Resume</span>
+            <img className="icons-cards2" src="../public/guardar-icon.png" alt="" />
+            <span className="titles-card2">Resume</span>
           </div>
         </div>
 
         
         <div className="col-6 col-md-2">
           <div className="tile tile-orange d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-pencil-square icon"></i>
-            <span>Blog</span>
+            <img className="icons-cards-lapiz" src="../public/lapiz.png" alt="" />
+            <span className="titles-card">Blog</span>
           </div>
         </div>
 
         
         <div className="col-6 col-md-2">
           <div className="tile tile-yellow d-flex flex-column justify-content-center align-items-center">
-            <i className="bi bi-envelope icon"></i>
-            <span>Feedback</span>
+            <img className="icons-cards" src="../public/sobre.png" alt="" />
+            <span className="titles-card">Feedback</span>
           </div>
         </div>
 
       </div>
     </div>
+    
   )
 }

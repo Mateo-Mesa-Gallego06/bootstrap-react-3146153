@@ -9,13 +9,50 @@
   align-items: center;
   font-size: 18px;
 }
-
-
+.container1{
+  display: flex;
+  align-items: center;
+  gap: 95vh;
+}
+.icon-galery{
+  width: 8rem;
+  height: auto;
+}
+.icons-cards-lapiz{
+  width: 5rem;
+  height: auto;
+  margin-left: 2rem;
+}
+.icons-cards{
+  width: 5rem;
+  height: auto;
+}
+.icons-cards2{
+  width: 5rem;
+  height: auto;
+}
+.redes-icons{
+  width: 10rem;
+  height: auto;
+}
 .tile-big {
   height: 260px;
 }
-
-
+.titles-card{
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+}
+.titles-card2{
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+}
+.titles-card3{
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+}
 .tile-wide {
   height: 120px;
 }
@@ -23,25 +60,30 @@
 
 .tile-green {
   background: #7ab29f;
+  position: relative;
 }
 
 .tile-lightgreen {
   background: #75b7a7;
+  position: relative;
 }
 
 .tile-blue {
   background: #4ca0c3;
   width: auto;
   height: 17rem;
+  position: relative;
 }
 
 .tile-pink {
   background: #cc5b8b;
+  position: relative;
 }
 
 .tile-red {
   background: #b95645;
   margin-top: -8.5rem;
+  position: relative;
 }
 
 .tile-orange {
@@ -49,6 +91,7 @@
   margin-top: -8.5rem;
   margin-right: -25rem;
   margin-left: 25rem;
+  position: relative;
 }
 
 .tile-yellow {
@@ -56,4 +99,5 @@
   margin-top: -8.5rem;
   margin-right: -25rem;
   margin-left: 25rem;
+  position: relative;
 }

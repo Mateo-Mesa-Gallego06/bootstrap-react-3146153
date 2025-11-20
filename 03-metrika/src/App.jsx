@@ -5,9 +5,9 @@ import { SectionCard } from '../components/SectionCard'
 export const App = () => {
   return (
     <>
-      <div>
+      <div className='container1'>
         <h1 className='title-metrika'>Metrika</h1>
-        <img src="../assets/icons-redes.png" alt="" />
+        <img className='redes-icons' src="../public/icons-redes.png" alt="" />
       </div>
       <SectionCard />
 
