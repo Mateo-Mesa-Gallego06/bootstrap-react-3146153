@@ -1,4 +1,8 @@
-.navbar-brand {
-  font-family: 'Georgia', serif;
+.title-ignnis{
+  justify-content: center;
+  font-family: inherit;
   letter-spacing: 1px;
+}
+.bi{
+  margin-right: 10rem;
 }
