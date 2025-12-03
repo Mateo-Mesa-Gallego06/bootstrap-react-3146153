@@ -1,0 +1,30 @@
+.section1 {
+  height: 100vh;
+  background-image: url('./public/fondo-section1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.quote-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  max-width: 600px;
+  margin-top: 38rem;
+  opacity: 60%;
+}
+
+.quote-text {
+    color: white;
+    font-size: 1.6rem;
+    font-weight:500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.arrow-down {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 2s infinite;
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import '../styles/ignnis.css'
 
 export const Ignnis = () => {
   return (
@@ -8,6 +8,9 @@ export const Ignnis = () => {
         <p className="quote-text">
           “Cuando la Tierra deja de hablar, solo los que escuchan pueden sembrar de nuevo.”
         </p>
+      </div>
+        <div className="arrow-down">
+        <i className="bi bi-caret-down"></i>
       </div>
     </section>
     

@@ -1,5 +1,5 @@
 import './App.css'
-import { Ignnis } from './components/Ignnis'
+import { Ignnis } from './components/ignnis'
 
 export const App = () => {
   return (
