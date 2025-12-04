@@ -27,4 +27,67 @@
   left: 50%;
   transform: translateX(-50%);
   animation: bounce 2s infinite;
+  color: #99F9CB; 
+  font-size: 2.0rem;
+  height: -20rem;
+}
+
+.intro-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-left {
+  width: 40%;
+  background-color: #99F9CB;
+  color: black;
+  position: relative;
+}
+
+.icon-top {
+  font-size: 2rem;
+  color: black;
+}
+
+.intro-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.frame-label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.intro-right {
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+}
+
+.marca-de-agua-image {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+}
+.text-center{
+  margin-top: 20rem;
+}
+.intro-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 0.95rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
