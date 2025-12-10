@@ -164,10 +164,12 @@ section.bg-dark hr {
 
 .comic-section h5 {
   font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 .comic-personaje {
   max-width: 220px;
+  margin: 0 auto;
 }
 
 .comic-descripcion {
@@ -209,6 +211,81 @@ section.bg-dark hr {
   color: #4fd1a5;
   font-size: 0.85rem;
 }
+
+/* ================================
+   SECCIÓN SÍGUENOS
+================================ */
+.follow-section {
+  background-color: #4fa35f;
+  padding: 3rem 1rem;
+  color: white;
+}
+
+.follow-section h3 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.follow-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.follow-icons i {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.follow-icons i:hover {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
+/* ================================
+   FOOTER
+================================ */
+.main-footer {
+  background-color: #3a3a3a;
+  color: #eaeaea;
+  padding: 3rem 1rem;
+}
+
+.footer-contact h6,
+.footer-email h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.footer-contact i {
+  font-size: 1rem;
+  color: #a5a5a5;
+}
+
+.footer-email input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #777;
+  padding: 0.5rem 0;
+  color: white;
+  outline: none;
+}
+
+.footer-email input::placeholder {
+  color: #9a9a9a;
+}
+
 
 /* ================================
    RESPONSIVE (COMPLEMENTO)
