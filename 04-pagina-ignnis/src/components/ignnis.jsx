@@ -3,271 +3,288 @@ import '../styles/ignnis.css'
 export const Ignnis = () => {
   return (
     <>
-    {/*  CONTEXTUALIZACIÓN  */}
-    <section className="intro-section">
-      <div className="container-fluid">
-        <div className="row g-0">
+       {/* INTRO */}
+      <section style={{ minHeight: "90vh" }}>
+        <div className="container-fluid">
+          <div className="row g-0">
 
-          
-          <div className="col-md-6 intro-left d-flex flex-column justify-content-center align-items-start px-5">
-          <img className='marca-de-agua' src="/public/marca-de-agua.png" alt="" />
-            <h2 className="mb-4">Introducción</h2>
-            <button className="btn btn-outline-dark">
-              DESCUBRE MÁS
-            </button>
+            <div
+              className="col-md-6 d-flex flex-column justify-content-center align-items-start"
+              style={{
+                backgroundColor: "#9ff0c8",
+                minHeight: "90vh",
+                padding: "3.5rem",
+                position: "relative",
+              }}
+            >
+              <img
+                src="/public/marca-de-agua.png"
+                alt=""
+                style={{
+                  position: "absolute",
+                  top: "2.5rem",
+                  left: "2.5rem",
+                  width: "140px",
+                }}
+              />
+
+              <h2
+                className="fw-bold"
+                style={{
+                  fontSize: "3.2rem",
+                  lineHeight: "1",
+                  color: "#133825",
+                }}
+              >
+                Introducción
+              </h2>
+
+              <button
+                className="btn"
+                style={{
+                  border: "2px solid #133825",
+                  color: "#133825",
+                  background: "transparent",
+                  padding: "0.6rem 1.2rem",
+                  fontWeight: "700",
+                  borderRadius: "6px",
+                }}
+              >
+                DESCUBRE MÁS
+              </button>
+            </div>
+
+            <div
+              className="col-md-6 position-relative"
+              style={{ minHeight: "90vh" }}
+            >
+              <img
+                src="/public/imagen-section2.jpg"
+                className="img-fluid w-100 h-100"
+                style={{ objectFit: "cover" }}
+              />
+
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  background: "rgba(3,92,73,0.88)",
+                  color: "#fff",
+                  padding: "1.2rem 2rem",
+                  fontSize: "0.9rem",
+                  lineHeight: "1.5",
+                }}
+              >
+                <p className="m-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  lobortis eleifend metus sed finibus...
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* CONTEXTUALIZACION */}
+      <section className="py-5" style={{ backgroundColor: "#1f2326", color: "white" }}>
+        <div className="container">
+          <h2 className="text-center mb-3" style={{ color: "#3cb88a", fontSize: "2.2rem" }}>
+            Contextualización
+          </h2>
+
+          <p className="text-center mb-5" style={{ maxWidth: "900px", margin: "0 auto" }}>
+            El presente proyecto se deriva del estudio...
+          </p>
+
+          <div className="row align-items-center mb-5">
+            <div className="col-md-6">
+              <h4 style={{ color: "#3cb88a" }}>Sostenibilidad  y Recursos naturales</h4>
+              <p>
+                La sostenibilidad se refiere a la capacidad de satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones para satisfacer las suyas, integrando consideraciones ambientales, sociales y económicas. 
+                Por otro lado, los recursos naturales son aquellos bienes y servicios que la naturaleza proporciona, como el agua, los minerales, los bosques y la biodiversidad, que son fundamentales para el desarrollo humano y el mantenimiento de los ecosistemas. La gestión adecuada de estos recursos es esencial para promover un desarrollo sostenible y preservar el equilibrio ecológico.
+              </p>
+            </div>
+
+            <div className="col-md-6 text-center">
+              <img
+                src="/public/img-planeta.jpg"
+                className="img-fluid"
+                style={{
+                  width: "280px",
+                  height: "280px",
+                  objectFit: "cover",
+                  borderRadius: "50%",
+                  boxShadow: "0 0 25px rgba(0,0,0,0.6)",
+                }}
+              />
+            </div>
           </div>
 
-          
-          <div className="col-md-6 position-relative">
-            <img
-              src="/public/imagen-section2.jpg"
-              alt="Introducción"
-              className="img-fluid w-100 h-100 object-fit-cover"
-            />
+          <hr style={{ backgroundColor: "rgba(255,255,255,0.25)", height: "1px" }} />
 
-            <div className="intro-texto">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed lobortis eleifend metus sed finibus...
-              </p>
+          <div className="row align-items-center mt-5">
+            <div className="col-md-6 text-center">
+              <img
+                src="/public/img-caos.jpg"
+                className="img-fluid"
+                style={{
+                  width: "280px",
+                  height: "280px",
+                  objectFit: "cover",
+                  borderRadius: "50%",
+                  boxShadow: "0 0 25px rgba(0,0,0,0.6)",
+                }}
+              />
+            </div>
+
+            <div className="col-md-6">
+              <h4 style={{ color: "#3cb88a" }}>Las 7 copas de la Ira de Dios.</h4>
+              <p>Las siete copas de la ira de Dios son un conjunto de juicios divinos descritos en el libro del Apocalipsis en la Biblia, específicamente en el capítulo 16. Estas copas representan plagas y calamidades que se derraman sobre la tierra como consecuencia de la desobediencia y el rechazo a Dios por parte de la humanidad. 
+                 Cada copa simboliza un castigo específico, que incluye enfermedades, desastres naturales y oscuridad, y su propósito es llamar a la humanidad al arrepentimiento y a la justicia divina. Estas visiones apocalípticas reflejan la lucha entre el bien y el mal y la inevitabilidad del juicio final.</p>
             </div>
           </div>
 
         </div>
-      </div>
-    </section>
+      </section>
 
+      {/* COMIC */}
+      <section className="text-center py-5" style={{ background: "#45aa87", color: "#0f2d23" }}>
+        <div className="container">
+          <h2 className="mb-5 fw-bold">CÓMIC INTERACTIVO</h2>
 
-{/*  section 3  */}
-  <section className="bg-dark text-white py-5">
-      <div className="container">
+          <div className="row justify-content-center mb-5">
 
-        <h2 className="text-center text-success mb-3">Contextualización</h2>
-        <p className="text-center mb-5">
-          El presente proyecto se deriva del estudio y análisis de diferentes temas:
-          Sostenibilidad y recursos naturales y las narrativas distópicas mediante
-          formatos digitales interactivos.
-        </p>
+            {[
+              { img: "Aina", name: "Aina" },
+              { img: "Padre", name: "Padre Theo" },
+              { img: "Monstruo", name: "Neirak" },
+              { img: "Kiran", name: "Kiran" },
+            ].map((p) => (
+              <div className="col-md-3 mb-4">
+                <img
+                  src={`/public/${p.img}.png`}
+                  className="img-fluid mb-3"
+                  style={{ maxWidth: "220px" }}
+                />
+                <h5 className="fw-bold mt-2">{p.name}</h5>
+                <p style={{ maxWidth: "260px", margin: "0 auto" }}>
+                  Ex-sacerdote expulsado por fusionar teología cristiana...
+                </p>
+              </div>
+            ))}
 
-        
-        <div className="row align-items-center mb-5">
-          <div className="col-md-6">
-            <h4 className="text-success">Sostenibilidad y Recursos naturales</h4>
-            <p>
-               La sostenibilidad se refiere a la capacidad de satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones para satisfacer las suyas, integrando consideraciones ambientales, sociales y económicas. 
-               Por otro lado, los recursos naturales son aquellos bienes y servicios que la naturaleza proporciona, como el agua, los minerales, los bosques y la biodiversidad, que son fundamentales para el desarrollo humano y el mantenimiento de los ecosistemas. La gestión adecuada de estos recursos es esencial para promover un desarrollo sostenible y preservar el equilibrio ecológico.
-              
-            </p>
           </div>
-          <div className="col-md-6 text-center">
-            <img src="/public/img-planeta.jpg" className="img-fluid img-redonda" />
+
+          <button className="btn btn-outline-dark px-5">VER CÓMIC</button>
+        </div>
+      </section>
+
+      {/* TIENDA */}
+      <section className="py-5" style={{ background: "#353535", color: "white" }}>
+        <div className="container">
+
+          <h2 className="text-center py-3 mb-5" style={{ background: "#2f7d63" }}>
+            Nuestra Tienda
+          </h2>
+
+          <div className="row text-center">
+
+            {[
+              { name: "Buso con chompa IGNNIS", price: "150.000", img: "buso.png" },
+              { name: "Taza de cerámica IGNNIS", price: "25.000", img: "taza.png" },
+              { name: "Libro IGNNIS", price: "110.000", img: "libroo.png" },
+            ].map((p) => (
+              <div className="col-md-4 mb-5">
+                <h5 style={{ color: "#4fd1a5" }}>{p.name}</h5>
+
+                <img src={`/public/${p.img}`} className="img-fluid mb-3" />
+
+                <p style={{ color: "#4fd1a5" }}>${p.price}</p>
+
+                <button
+                  className="btn mb-3"
+                  style={{
+                    border: "2px solid #4fd1a5",
+                    color: "#4fd1a5",
+                    fontSize: "0.85rem",
+                  }}
+                >
+                  AÑADIR A LA BOLSA <i className="bi bi-bag"></i>
+                </button>
+
+                <div className="d-flex justify-content-center gap-3" style={{ color: "#4fd1a5" }}>
+                  <i className="bi bi-heart"></i>
+                  <i className="bi bi-chat"></i>
+                  <i className="bi bi-send"></i>
+                  <i className="bi bi-bookmark"></i>
+                  <i className="bi bi-three-dots-vertical"></i>
+                </div>
+              </div>
+            ))}
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* SIGUENOS */}
+      <section className="text-center" style={{ background: "#4fa35f", padding: "3rem 1rem", color: "white" }}>
+        <h3 className="fw-bold mb-4" style={{ letterSpacing: "2px" }}>
+          SÍGUENOS:
+        </h3>
+
+        <div className="d-flex justify-content-center gap-4">
+          <i className="bi bi-instagram fs-1"></i>
+          <i className="bi bi-facebook fs-1"></i>
+          <i className="bi bi-youtube fs-1"></i>
+          <i className="bi bi-twitter-x fs-1"></i>
+          <i className="bi bi-tiktok fs-1"></i>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="text-white" style={{ background: "#3a3a3a", padding: "3rem 1rem" }}>
+        <div className="container">
+          <div className="row">
+
+            <div className="col-md-6">
+              <h6 className="fw-bold mb-3">CONTÁCTANOS</h6>
+
+              <p className="d-flex align-items-center gap-2 mb-2">
+                <i className="bi bi-telephone-fill"></i> Llámanos al 3001537269
+              </p>
+
+              <p className="d-flex align-items-center gap-2 mb-2">
+                <i className="bi bi-whatsapp"></i> Contacta con nosotros vía WhatsApp
+              </p>
+
+              <p className="d-flex align-items-center gap-2 mb-2">
+                <i className="bi bi-envelope-fill"></i> Envíanos un correo electrónico
+              </p>
+            </div>
+
+            <div className="col-md-6">
+              <h6 className="fw-bold mb-3">Dirección de correo electrónico*</h6>
+              <input
+                type="email"
+                placeholder="Introduce tu correo electrónico"
+                className="w-100"
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  borderBottom: "1px solid #777",
+                  padding: "0.5rem 0",
+                  color: "white",
+                }}
+              />
+            </div>
+
           </div>
         </div>
-
-        <hr />
-
-        
-        <div className="row align-items-center mt-5">
-          <div className="col-md-6 text-center">
-            <img src="/public/img-caos.jpg" className="img-fluid img-redonda" />
-          </div>
-          <div className="col-md-6">
-            <h4 className="text-success">Las 7 copas de la Ira de Dios</h4>
-            <p>
-              Las siete copas de la ira de Dios son un conjunto de juicios divinos descritos en el libro del Apocalipsis en la Biblia, específicamente en el capítulo 16. Estas copas representan plagas y calamidades que se derraman sobre la tierra como consecuencia de la desobediencia y el rechazo a Dios por parte de la humanidad. 
-              Cada copa simboliza un castigo específico, que incluye enfermedades, desastres naturales y oscuridad, y su propósito es llamar a la humanidad al arrepentimiento y a la justicia divina. Estas visiones apocalípticas reflejan la lucha entre el bien y el mal y la inevitabilidad del juicio final.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-{/*  CÓMIC INTERACTIVO  */}
-<section className="comic-section text-center py-5">
-  <div className="container">
-
-    <h2 className="mb-5">CÓMIC INTERACTIVO</h2>
-
-    <div className="row mb-5 justify-content-center">
-
-      <div className="col-md-3">
-        <img src="/public/Aina.png" className="img-fluid mb-3 comic-personaje" />
-        <h5>Aina</h5>
-        <p className="comic-descripcion">
-          Ex-sacerdote expulsado por fusionar teología cristiana con cosmovisiones indígenas.
-        </p>
-      </div>
-
-      <div className="col-md-3">
-        <img src="/public/Padre.png" className="img-fluid mb-3 comic-personaje" />
-        <h5>Padre Theo</h5>
-        <p className="comic-descripcion">
-          Ex-sacerdote expulsado por fusionar teología cristiana con cosmovisiones indígenas.
-        </p>
-      </div>
-
-      <div className="col-md-3">
-        <img src="/public/Monstruo.png" className="img-fluid mb-3 comic-personaje" />
-        <h5>Neirak</h5>
-        <p className="comic-descripcion">
-          Hija de agricultores arruinados por la infertilidad de la tierra.
-        </p>
-      </div>
-
-      <div className="col-md-3">
-        <img src="/public/Kiran.png" className="img-fluid mb-3 comic-personaje" />
-        <h5>Kiran</h5>
-        <p className="comic-descripcion">
-          Originario de una isla ya sumergida. Sobrevivió al hundimiento.
-        </p>
-      </div>
-
-    </div>
-
-    <button className="btn btn-outline-dark px-5">
-      VER CÓMIC
-    </button>
-
-  </div>
-</section>
-
-
-{/*  TIENDA  */}
-<section className="bg-dark text-white py-5">
-  <div className="container">
-
-    <h2 className="text-center bg-success py-3 mb-5">
-      Nuestra Tienda
-    </h2>
-
-    <div className="row text-center">
-
-      
-      <div className="col-md-4 mb-5">
-        <h5 className="text-success">Buso con chompa IGNNIS</h5>
-
-        <img src="/public/buso.png" className="img-fluid mb-3" />
-
-        <p className="text-success">$ 150.000</p>
-        <p>Prenda cómoda y moderna con un diseño único.</p>
-
-        <button className="btn btn-outline-success mb-3">
-          AÑADIR A LA BOLSA
-         <i class="bi bi-bag"></i>
-        </button>
-
-       
-        <div className="d-flex justify-content-center gap-3 text-success">
-          <i class="bi bi-heart"></i>
-          <i class="bi bi-chat"></i>
-          <i class="bi bi-send"></i>
-          <i class="bi bi-bookmark"></i>
-          <i class="bi bi-three-dots-vertical"></i>
-        </div>
-      </div>
-
-     
-      <div className="col-md-4 mb-5">
-        <h5 className="text-success">Taza de cerámica IGNNIS</h5>
-
-        <img src="/public/taza.png" className="img-fluid mb-3" />
-
-        <p className="text-success">$ 25.000</p>
-        <p>Taza elegante y resistente.</p>
-
-        <button className="btn btn-outline-success mb-3">
-          AÑADIR A LA BOLSA
-        <i class="bi bi-bag"></i>
-        </button>
-
-        <div className="d-flex justify-content-center gap-3 text-success">
-          <i class="bi bi-heart"></i>
-          <i class="bi bi-chat"></i>
-          <i class="bi bi-send"></i>
-          <i class="bi bi-bookmark"></i>
-          <i class="bi bi-three-dots-vertical"></i>
-        </div>
-      </div>
-
-      
-      <div className="col-md-4 mb-5">
-        <h5 className="text-success">Libro IGNNIS</h5>
-
-        <img src="/public/libroo.png" className="img-fluid mb-3" />
-
-        <p className="text-success">$ 110.000</p>
-        <p>Libro con pasta dura y diseño minimalista.</p>
-
-        <button className="btn btn-outline-success mb-3">
-          AÑADIR A LA BOLSA
-        <i class="bi bi-bag"></i>
-        </button>
-
-        <div className="d-flex justify-content-center gap-3 text-success">
-          <i class="bi bi-heart"></i>
-          <i class="bi bi-chat"></i>
-          <i class="bi bi-send"></i>
-          <i class="bi bi-bookmark"></i>
-          <i class="bi bi-three-dots-vertical"></i>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-{/*  REDES  */}
-<section className="follow-section text-center">
-  <h3>SÍGUENOS:</h3>
-
-  <div className="follow-icons">
-    <i className="bi bi-instagram"></i>
-    <i className="bi bi-facebook"></i>
-    <i className="bi bi-youtube"></i>
-    <i className="bi bi-twitter-x"></i>
-    <i className="bi bi-tiktok"></i>
-  </div>
-</section>
-
-<footer className="main-footer">
-  <div className="container">
-    <div className="row">
-
-      
-      <div className="col-md-6 footer-contact">
-        <h6>CONTÁCTANOS</h6>
-
-        <p>
-          <i className="bi bi-telephone-fill"></i>
-          Llámanos al 3001537269
-        </p>
-
-        <p>
-          <i className="bi bi-whatsapp"></i>
-          Contacta con nosotros vía WhatsApp
-        </p>
-
-        <p>
-          <i className="bi bi-envelope-fill"></i>
-          Envíanos un correo electrónico
-        </p>
-      </div>
-
-      
-      <div className="col-md-6 footer-email">
-        <h6>Dirección de correo electrónico*</h6>
-
-        <input
-          type="email"
-          placeholder="Introduce tu correo electrónico"
-        />
-      </div>
-
-    </div>
-  </div>
-</footer>
+      </footer>
 
     </>
   )
