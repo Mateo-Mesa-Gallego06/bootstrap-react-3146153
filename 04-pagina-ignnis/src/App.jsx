@@ -81,7 +81,9 @@ export const App = () => {
           </div>
         </div>
       </section>
-    <Ignnis/>
+    <Ignnis titulo="Buscar"
+    intro="Introducción"
+    />
     </>
 
   )
